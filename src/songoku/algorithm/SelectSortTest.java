@@ -21,6 +21,8 @@ public class SelectSortTest {
 
     public static void selectSort(int[] arr) {
         //选择排序时间复杂度是 O(n^2)
+        // 进行 n-1 趟选择排序
+        // 首先假设第i(从0，即第一个开始)个为最小值，每一趟选择出最小的值所在的index，和第i个进行交换
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;
             int min = arr[i];
