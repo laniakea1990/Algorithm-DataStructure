@@ -8,11 +8,11 @@ import java.util.Arrays;
 public class BubbleSortTest {
 
     public static void main(String[] args) {
-//        int[] arr = new int[10];
-        int[] arr = {5,4,3,2,1};
-//        for (int i = 0; i < arr.length; i++) {
-//            arr[i] = (int) (Math.random() * 1000);
-//        }
+        int[] arr = new int[10];
+//        int[] arr = {5,4,3,2,1};
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) (Math.random() * 1000);
+        }
         System.out.println("ÅÅÐòÇ°£º" + Arrays.toString(arr));
 
         bubbleSort(arr);
